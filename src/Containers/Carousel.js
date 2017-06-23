@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
+import Home from './Home';
 import CompanySize from './CompanySize';
+import ContractType from './ContractType';
 import Region from './Region';
 import ActivitySector from './ActivitySector';
 
@@ -57,10 +59,13 @@ class Carousel extends Component {
 		return (
 			<div className="App carousel-container">
 				<div id="carousel"
-					style={this.getActiveComponent(3)}>
+					style={this.getActiveComponent(5)}>
+					<Home goToNextPage={this.goToNextPage} />
 					<CompanySize goToNextPage={this.goToNextPage} />
+					<ContractType goToNextPage={this.goToNextPage} />
 					<Region goToNextPage={this.goToNextPage} />
-					<ActivitySector goToHomePage={this.goToHomePage} />
+					<ActivitySector goToNextPage={this.goToNextPage} />
+
 				</div>
 			</div>
 		);

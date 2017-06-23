@@ -6,18 +6,29 @@ import CompanySize from './Containers/CompanySize';
 import Region from './Containers/Region';
 import ActivitySector from './Containers/ActivitySector';
 import ContractType from './Containers/ContractType';
-import Category from './Containers/Category';
 import Carousel from './Containers/Carousel';
 
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+injectTapEventPlugin();
+
 class App extends Component {
+
   render() {
 
     return (
       <div className="App">
-        <Carousel />
+        <MuiThemeProvider>
+          <Carousel />
+        </MuiThemeProvider >
       </div>
     );
+
   }
+
 }
+
+
 
 export default App;
