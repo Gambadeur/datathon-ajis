@@ -39,16 +39,14 @@ class Home extends Component {
 				<div style={styleForm}>
 					<Form />
 				</div>
-				<div style={styleButton} >
+				<div style={styleButton}
+					onClick={() => this.props.goToNextPage(1)}
+				>
 					<ValidateButton />
 				</div>
 
-				<div className="next-page-btn"
-					onClick={() => this.props.goToNextPage(1)}>
-					<i className="fa fa-arrow-right" style={{ color: '#EFFF00' }}></i>
-				</div>
 
-				<div style={paragraphe}>
+				<div className="info">
 					<p>+ d’infos </p>
 					<p> Parmi les 25,5 millions de personnes de 15 à 64 ans en emploi en 2014, 3,4 % (soit près de 871 000 personnes) disposent d’une reconnaissance administrative de leur handicap leur permettant de bénéficier de la loi sur l’obligation d’emploi des travailleurs handicapés.
 					</p>
