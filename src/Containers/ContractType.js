@@ -26,7 +26,7 @@ const styleIframe2 = {
 }
 
 const styleIframe3 = {
-	color: '#989898 !important',
+	color: '#FF0000 !important',
 	textDecoration: 'none!important'
 }
 const styleIframe4 = {
@@ -49,7 +49,7 @@ class ContratType extends Component {
 
 				<div className="next-page-btn-container">
 					<div className="next-page-btn"
-						onClick={() => this.props.goToNextPage(2)}>
+						onClick={() => this.props.goToNextPage(3)}>
 						<i className="fa fa-arrow-right" style={{ color: '#2C3E50' }}></i>
 					</div>
 				</div>
