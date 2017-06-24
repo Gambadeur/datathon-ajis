@@ -17,6 +17,10 @@ h3 {
   text-align: center;
 }
 
+.Conclusion a {
+  color: '#2D8CBC';
+}
+
 .info {
   position: absolute;
   bottom: 4em;
@@ -68,7 +72,12 @@ h3 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: 0.3s;
 }
+.next-page-btn:hover {
+    background-color: rgba(255,255,255,0.6);
+}
+
 /* HOME */
 div[role="presentation"] {
     width: auto !important;

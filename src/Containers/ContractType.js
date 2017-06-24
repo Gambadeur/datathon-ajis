@@ -43,7 +43,7 @@ class ContratType extends Component {
 	render() {
 		return (
 			<div style={styleContratType} className="screen">
-				<h2>Handicap: un emploi pour chacun</h2>
+				<h2>Tous capables !</h2>
 				<h3 style={topmarginH3}>Les types de contrats / part CDD & CDI</h3>
 				<iframe allowfullscreen src="//e.infogram.com/part_cddcdi-47106?src=embed" width="550" height="515" scrolling="no" frameborder="0" style={{ border: 'none' }}></iframe>
 

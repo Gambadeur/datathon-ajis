@@ -4,7 +4,7 @@ class Region extends Component {
 	render() {
 		return (
 			<div className="Region screen" style={{ backgroundColor: "#FFAA42", color: '#fff'}}>
-				<h2 className="centered">Handicap: un emploi pour chacun</h2>
+				<h2 className="centered">Tous capables !</h2>
 				<h3 className="centered">Représentation des personnes handicapées en entreprise selon les départements</h3>
 
 			<div style={{display:'flex', alignItems: 'center', justifyContent: 'center'}}>

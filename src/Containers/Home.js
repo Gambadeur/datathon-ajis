@@ -33,7 +33,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div style={styleHome} className="screen">
-				<h2>Tous Capables !</h2>
+				<h2>Tous capables !</h2>
 				<h3>Quel type d’entreprise est la plus bienveillante ?</h3>
 				<h3>Pour le découvrir, dites-nous qui vous êtes…</h3>
 				<div style={styleForm}>

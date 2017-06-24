@@ -48,7 +48,7 @@ class CompanySize extends Component {
 		return (
 
 			<div style={styleCompanySize} className="screen">
-				<h2>Handicap: un emploi pour chacun</h2>
+				<h2>Tous capables !</h2>
 				<h3>De la TPE à la grande entreprise, quel cadre de travail semble le mieux convenir à votre situation?</h3>
 
 				<div>
