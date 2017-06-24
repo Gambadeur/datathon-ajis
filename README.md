@@ -1,4 +1,3 @@
-# DATATHON AJIS
+# datathon-ajis
 
-Start project : 
-`npm start`
+<https://PaulPourtout.github.io/datathon-ajis>
