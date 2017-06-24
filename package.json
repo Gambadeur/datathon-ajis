@@ -2,6 +2,7 @@
   "name": "datathon-ajis",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://PaulPourtout.github.io/datathon-ajis",
   "dependencies": {
     "lerp": "^1.0.3",
     "material-ui": "^0.18.3",
