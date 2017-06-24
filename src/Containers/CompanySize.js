@@ -84,7 +84,7 @@ class CompanySize extends Component {
 										<p>Entreprise de 250 à 4999 employés</p>
 										<p>18%</p>
 								</div>
-							</div>	
+							</div>
 						</div>
 						<div className="circle">
 							<div className="inner-circle">
@@ -116,7 +116,6 @@ class CompanySize extends Component {
 				</div>
 
 				<div className="info">
-					<p>+ d’infos </p>
 					<p>Le type d’entreprise qui est le plus susceptible de mettre en oeuvre des dispositifs pour maintenir en emploi les personnes handicapées ou les recruter sont les PME.
 					</p>
 				</div>
@@ -126,4 +125,3 @@ class CompanySize extends Component {
 }
 
 export default CompanySize;
-
